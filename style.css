@@ -11,7 +11,7 @@ body{
     align-items: center;
 }
 main{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     height: 100vh;
     width: 66%;
     display: flex;
@@ -47,14 +47,14 @@ main{
     align-items: flex-start;
 }
 .main_content_section{
-    border: 3px solid green;
+    /* border: 3px solid green; */
     height: 100%;
     border-radius: 10px;
 }
 .main_content_section1{
     width: 30%;
     background-color: #E6FBF7;
-    border:5px solid violet;
+    /* border:5px solid violet; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -66,7 +66,7 @@ main{
     background-color: #C7F1ED;
 }
 .navigation_container{
-    border:2px solid yellow;
+    /* border:2px solid yellow; */
     display: flex;
     height: 40%;
     width: 50%;
@@ -75,9 +75,67 @@ main{
     align-items: flex-start;
 }
 .navbar_footer{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width:80%;
     height: 15%;
     border-radius: 25px;
-    background-image: linear-gradient(to left,#80C9C8,#80C9C8);
+    background-image: linear-gradient(to right,#8efafabb,#80C9C8);
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+}
+.heading{
+    margin-top: 5%;
+    margin-left: 7.5%;
+    /* border: 3px solid red; */
+    height: 10%;
+    width:45%;
+    color: #67869B;
+}
+.fake_bar{
+    /* border: 3px solid red; */
+    height: 37%;
+    width:100%;
+    margin-top: 0.5rem;
+    background-color: #EFFBF8;
+    border-radius: 10px;
+}
+.games_container{
+    margin-top: 10%;
+    /* border: 3px solid red; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.games_bar{
+    /* border: 3px solid blue; */
+    height: 30%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+    background-color: #E6F9F6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.527);
+}
+.games_bar_pic{
+    /* border: 1px solid green; */
+    height: 75%;
+    width: 17%;
+    border-radius: 20px;
+}
+.games_bar_progress{
+    /* border: 1px solid magenta; */
+    height: 75%;
+    width: 46%;
+}
+.games_bar_percent{
+    /* border: 1px solid blue; */
+    height: 75%;
 }
